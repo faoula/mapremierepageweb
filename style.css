@@ -1,25 +1,38 @@
-h1{ 
-    color:blue;
+h1{ font-size: 3.5em;
+    color:#A5B4FC;
+    font-family: "Montserrat", sans-serif;
     text-align: center;
 }
+h4{color:rgb(16, 16, 17)}
+.maclasse{color: rgb(163, 13, 13)}
 
- 
-   
-
-h4{color:blueviolet}
-.maclasse{color: white}
-p{ 
-      font-style: italic;
-    font-weight:bold;
+p{ font-size: 1.1em;
+    font-family: Manrope;
     color:green;
     font-size: 20px;
     padding-left: 60px;
     padding-left: 20px;
     font-weight: bold;
 }
-li{color: aquamarine;}
+li{font-size: 1em;
+    font-family: Manrope;
+    color: rgb(17, 133, 94);  
+}
+
+.maclasse{padding: 50px; /* DéFINITION DE LA HAUTEUR  */
+    background-color: skyblue;
+    border: solid red;
+    border-top: 3px #EB5353 DOUBLE;
+    border-right: 35px #1a1718 solid;
+    border-bottom:25px greenyellow;
+    border-left: 5px black;
+    border-radius: 10px 10px 10px;
 
 
-.gras{
-    font-weight:bold;}
+}
+
+
+
+
+
 
