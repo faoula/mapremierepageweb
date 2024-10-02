@@ -4,7 +4,7 @@ h1{ font-size: 3.5em;
     text-align: center;
 }
 h4{color:rgb(16, 16, 17)}
-.maclasse{color: rgb(163, 13, 13)}
+/*.maclasse{color: rgb(163, 13, 13)}*/
 
 p{ font-size: 1.1em;
     font-family: Manrope;
@@ -20,19 +20,44 @@ li{font-size: 1em;
 }
 
 .maclasse{padding: 50px; /* DéFINITION DE LA HAUTEUR  */
-    background-color: skyblue;
+ /*   background-color: skyblue;
     border: solid red;
     border-top: 3px #EB5353 DOUBLE;
     border-right: 35px #1a1718 solid;
     border-bottom:25px greenyellow;
     border-left: 5px black;
-    border-radius: 10px 10px 10px;
+    border-radius: 10px 10px 10px;*/
 
 
 }
 
+nav {
+    border-bottom: 1px solid black;
+  }
+  
+  .crumbs ol {
+    list-style-type: none;
+    padding-left: 0;
+  }
+  
+  .crumb {
+    display: inline-block;
+  }
+  
+  .crumb a::after {
+    display: inline-block;
+    color: #000;
+    content: '>';
+    font-size: 80%;
+    font-weight: bold;
+    padding: 0 3px;
+  }
+ body{background-color: rgb(5, 164, 204);
 
+ }  
 
-
-
-
+ .images{
+    background-image: url("yacht.jpg");
+    width: 100%;
+    height: 500px;
+ }
