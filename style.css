@@ -1,5 +1,5 @@
 h1{ font-size: 3.5em;
-    color:#A5B4FC;
+    color:#020308;
     font-family: "Montserrat", sans-serif;
     text-align: center;
 }
@@ -8,7 +8,7 @@ h4{color:rgb(16, 16, 17)}
 
 p{ font-size: 1.1em;
     font-family: Manrope;
-    color:green;
+    color:rgb(10, 16, 10);
     font-size: 20px;
     padding-left: 60px;
     padding-left: 20px;
@@ -16,7 +16,7 @@ p{ font-size: 1.1em;
 }
 li{font-size: 1em;
     font-family: Manrope;
-    color: rgb(17, 133, 94);  
+    color: rgb(3, 8, 6);  
 }
 
 .maclasse{padding: 50px; /* DéFINITION DE LA HAUTEUR  */
@@ -30,34 +30,3 @@ li{font-size: 1em;
 
 
 }
-
-nav {
-    border-bottom: 1px solid black;
-  }
-  
-  .crumbs ol {
-    list-style-type: none;
-    padding-left: 0;
-  }
-  
-  .crumb {
-    display: inline-block;
-  }
-  
-  .crumb a::after {
-    display: inline-block;
-    color: #000;
-    content: '>';
-    font-size: 80%;
-    font-weight: bold;
-    padding: 0 3px;
-  }
- body{background-color: rgb(5, 164, 204);
-
- }  
-
- .images{
-    background-image: url("yacht.jpg");
-    width: 100%;
-    height: 500px;
- }
